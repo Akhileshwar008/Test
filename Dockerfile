@@ -1,4 +1,5 @@
 FROM python:3
-WORKDIR /usr/src/app
+ENV MODULE_NAME="hello"
 COPY . .
-CMD python3 script.py
+CMD python3 hello.py
+
